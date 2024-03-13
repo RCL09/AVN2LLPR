@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	setlocale(LC_ALL,"Portuguese");
+	
+	int vetor [8];
+	
+	for(int i = 0; i < 8;i++){
+		scanf("%d",&vetor[i]);
+	}
+	
+	printf("O primeiro número do vetor: %d",vetor[0]);
+
+}
