@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+	int matriz[6][3];
+	
+	for(int linha = 0; linha < 6; linha++){
+		for(int coluna = 0; coluna < 3; coluna++){
+			scanf("%d",&matriz[linha][coluna]);
+		}	
+	}
+	int multiplicacao = matriz [0][2] * matriz [1][2] * matriz [2][2]* matriz [3][2] * matriz [4][2] * matriz [5][2];
+	printf("%d",multiplicacao);
+}
